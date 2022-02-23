@@ -5,7 +5,7 @@ import './navBar.css';
 
 function NavBar() {
     return (
-        <div className="navbar">
+        <header className="navbar">
             <div className="navbar__container">
                 <a href="#about" className="navbar__logo">gc</a>
                 <div className="navbar__gitlogo">
@@ -54,7 +54,7 @@ function NavBar() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 
