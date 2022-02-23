@@ -37,19 +37,44 @@ function NavBar() {
                 <div className="navbar__menu">
                     <ul className="navbar__list">
                         <li className="navbar__item">
-                            <a href="#home" className="navbar__link">Home</a>
+                            <a 
+                                href="#home" 
+                                className="navbar__link"
+                            >
+                                Home
+                            </a>
                         </li>
                         <li className="navbar__item">
-                            <a href="#about" className="navbar__link">A propos</a>
+                            <a 
+                                href="#about" 
+                                className="navbar__link"
+                            >
+                                A propos
+                            </a>
                         </li>
                         <li className="navbar__item">
-                            <a href="#resume" className="navbar__link">Parcours</a>
+                            <a 
+                                href="#resume" 
+                                className="navbar__link"
+                            >
+                                Parcours
+                            </a>
                         </li>
                         <li className="navbar__item">
-                            <a href="#portfolio" className="navbar__link">Portfolio</a>
+                            <a 
+                                href="#portfolio" 
+                                className="navbar__link"
+                            >
+                                Portfolio
+                            </a>
                         </li>
                         <li className="navbar__item">
-                            <a href="#contact" className="navbar__link">Contact</a>
+                            <a 
+                                href="#contact" 
+                                className="navbar__link"
+                            >
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
