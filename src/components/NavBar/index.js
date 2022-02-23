@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <header className="navbar">
             <div className="navbar__container">
-                <a href="#about" className="navbar__logo">gc</a>
+                <a href="#home" className="navbar__logo">gc</a>
                 <div className="navbar__gitlogo">
                     <a 
                         href="https://github.com/GuillaumeCARRA" 
