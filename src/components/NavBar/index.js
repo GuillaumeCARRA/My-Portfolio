@@ -17,7 +17,7 @@ function NavBar() {
                         <Icon 
                             name="github" 
                             size="big" 
-                            class="icon"
+                            style={{color: '#15023a'}}
                         />
                     </a>
                 </div>
@@ -30,7 +30,7 @@ function NavBar() {
                         <Icon 
                             name="linkedin" 
                             size="big" 
-                            class="icon"
+                            style={{color: '#15023a'}}
                         />
                     </a>
                 </div>
@@ -57,7 +57,7 @@ function NavBar() {
                                 href="#resume" 
                                 className="navbar__link"
                             >
-                                Parcours
+                                Mon Parcours
                             </a>
                         </li>
                         <li className="navbar__item">
