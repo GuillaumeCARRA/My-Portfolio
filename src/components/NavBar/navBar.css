@@ -70,5 +70,6 @@ a.navbar__link {
 .navbar__link:hover {
     font-size: 2rem;
     transition: all 0.8s ease;
+    text-decoration: underline #15023a;
 }
 /*MENU END*/

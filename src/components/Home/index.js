@@ -23,7 +23,7 @@ function Home() {
                 "Développeur Web Junior.", 
                 "Développeur Web React.", 
                 "Développeur Web Front.", 
-                "Développeur Web FullStack."
+                "Développeur Web FullStack.",
             ]
         })
     }, [])
