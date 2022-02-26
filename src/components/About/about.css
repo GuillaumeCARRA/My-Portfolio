@@ -15,19 +15,19 @@
 
 
 .about__container {
-    margin: 40px 250px auto 250px;
-    padding: 30px;
-    
+    margin: 15px 500px auto 770px;
+    padding: 10px;
 }
+
 
 .about__data {
 
 }
 
 .about__description {
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 3.2rem;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 2.5rem;
     text-align: justify;
 }
 
@@ -35,14 +35,36 @@
     text-decoration: underline #15023a;
     color: #15023a;
     font-weight: 400;
+    
 }
 
 .text__link:hover {
     color: #15023a;
     text-decoration: underline #15023a;
-    
+    cursor: pointer;
 }
 
 .text__uppercase {
     text-transform: uppercase;
+}
+
+
+.img__item {
+    top: 1000px;
+    left: 400px;
+    right: 40px;
+    height: 100%;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border: 4px solid #15023a; 
+    border-radius: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img__about {
+    margin-top: 30px;
+    border-radius: 30%;
 }
