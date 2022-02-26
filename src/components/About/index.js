@@ -11,12 +11,13 @@ function About() {
             <div className="about__container">
                 <div className="about__data">
                     <p className="about__description">
-                        Je me présente, je m'appelle Guillaume (bonjour Guillaume !!!), après avoir travaillé pendant 3 ans en tant que <span>Vendeur Sports Collectifs </span>
-                        et avoir effectué <span>divers emplois</span>, que vous pourrez retrouver dans mon <a href="#resume" className="text__link">CV</a>, j'ai eu donc l'envi  
-                        de me reconvertir dans le développement Web. <br/> <br/>
+                        Après avoir effectué <span>divers emplois</span> et avoir été pendant 3 ans Vendeur Sports Collectifs, j'ai eu l'envi de me <span>reconvertir dans le Développement Web</span>. 
+                        <br/> <br/>
                         Pour cela j'ai suivi une <span className="text__uppercase">formation développeur fullstack javascript</span>, délivrant le Titre Professionnel “Développeur Web et Web
-                        Mobile”, en téléprésentiel, au sein de l'école O'clock et ce qui m'a permis aussi d'obtenir ma certification OPQUAST "Maitrise de la qualité en projet Web".<br/> <br/>
-                        Grâce à mes expériences multiples, j'ai pu acquérir de nombreuses compétences, telle que <span>le travail en équipe, la rigueur, l'organisation et le sérieux.</span> <br/><br/>
+                        Mobile”, en téléprésentiel, au sein de l'école O'clock.
+                        <br/> <br/>
+                        Grâce à mes expériences multiples, j'ai pu acquérir de nombreuses compétences, telle que <span>le travail en équipe, la rigueur, l'organisation et le sérieux</span>.
+                        <br/><br/>
                         Actuellement je continue à me former en <span>autodidacte</span> autant sur la partie <span>Frontend</span> que sur la partie <span>Backend</span> pour pouvoir avoir encore plus de projets à fournir.
                     </p>
                 </div>
