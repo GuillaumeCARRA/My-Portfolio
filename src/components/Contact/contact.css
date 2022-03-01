@@ -20,28 +20,39 @@
 }
 
 .contact__form {
-    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 300px;
+    width: 60%;
 }
 
 .contact__input {
-    width: 100%;
-    height: 55px;
+    width: 60%;
+    height: 50px;
     padding-left: 10px;
-    margin: 10px 0;
+    margin: 10px 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     border-radius: 5px;
     border: 2px solid #15023a;
     outline-style: none;
-    font-size: 15px;
+    font-size: 16px;
+    color: #15023a;
 }
 
 .send__button {
-    margin-top: 10px;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 550px;
     padding: 12px 20px;
     color: white;
     border-radius: 5px;
     font-weight: 700;
+    font-size: 16px;
     cursor: pointer;
     background-color: #1e0355;
     outline-style: none;
