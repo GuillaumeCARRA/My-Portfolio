@@ -5,7 +5,7 @@
     background-color: white;
     top: 0;
     z-index: 3;
-    transition: all 1s ease;
+    /* transition: all 1s ease; */
 }
 
 .navbar__container {
@@ -28,6 +28,7 @@
 a.navbar__logo {
     color:  #15023a;
 }
+
 
 /*SEMANTIC UI LOGO START*/
 .navbar__gitlogo {
@@ -67,9 +68,47 @@ a.navbar__link {
     color:  #15023a;
 }
 
-.navbar__link:hover {
+/* .navbar__link:hover {
     font-size: 2rem;
     transition: all 0.8s ease;
     text-decoration: underline #15023a;
-}
+} */
 /*MENU END*/
+
+
+/* UNDERLINE NAVBAR MENU START */
+.underline__animation {
+    position: relative;
+    top: 22px;
+    right: 705px;
+    width: 78px;
+    height: 3px;
+    background-color:#15023a;
+    transition: .5s;
+}
+
+li:nth-child(2):hover ~ .underline__animation {
+    background-color:#15023a;
+    transform: translate(105px);
+    width: 120px;
+}
+
+li:nth-child(3):hover ~ .underline__animation {
+    background-color:#15023a;
+    transform: translate(250px);
+    width: 180px;
+}
+
+li:nth-child(4):hover ~ .underline__animation {
+    background-color:#15023a;
+    transform: translate(460px);
+    width: 110px;
+}
+
+li:nth-child(5):hover ~ .underline__animation {
+    background-color:#15023a;
+    transform: translate(600px);
+    width: 105px;
+}
+/* UNDERLINE NAVBAR MENU END */
+

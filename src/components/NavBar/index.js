@@ -76,6 +76,7 @@ function NavBar() {
                                 Contact
                             </a>
                         </li>
+                        <div className="underline__animation"></div>
                     </ul>
                 </div>
             </div>
