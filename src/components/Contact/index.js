@@ -1,15 +1,50 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { Icon } from 'semantic-ui-react';
 import './contact.css';
 
+
 function Contact() {
+
+    const REACT_APP_SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+    const REACT_APP_TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+    const REACT_APP_USER_ID = process.env.REACT_APP_USER_ID;
+
+
+    const formRef = useRef();
+    const [emailSend, setEmailSend] = useState(false);
+
+    const handleSendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            REACT_APP_SERVICE_ID,
+            REACT_APP_TEMPLATE_ID,
+            formRef.current,
+            REACT_APP_USER_ID
+        )
+        .then(
+            (response) => {
+                setEmailSend(true);
+            }
+        ).catch(
+            (error) => {
+                console.log(error);
+            }
+        )
+    }
+
     return (
         <div className="contact" id="contact">
             <h2 className="contact__title">
                 Me Contacter
             </h2>
                 <div className="contact__container">
-                    <form className="contact__form">
+                    <form 
+                        ref={formRef}
+                        className="contact__form"
+                        onSubmit={handleSendEmail}
+                    >
                         <input 
                             type="text"
                             placeholder="Nom"
@@ -42,11 +77,20 @@ function Contact() {
                             className="send__button"
                         >
                             Envoyer
-                            <Icon 
-                                name="send"
-                                style={{marginLeft: '10px'}}
-                            />
+                            {
+                                emailSend 
+                                    ? <Icon 
+                                        name='thumbs up outline'
+                                        style={{marginLeft: '10px'}}
+                                    />
+                                    : <Icon 
+                                        name="send"
+                                        style={{marginLeft: '10px'}}
+                                    />
+                            }
+                           
                         </button>
+                        {emailSend ? <p className="msg__verification">Merci pour votre message, je vous répondrai dès que je peux</p> : ''}
                     </form>
                 </div>
         </div>

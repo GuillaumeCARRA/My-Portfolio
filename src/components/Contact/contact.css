@@ -62,6 +62,15 @@
     background-color: #15023a;
 }
 
+.msg__verification{
+   position: absolute;
+   margin-top: 475px;
+   margin-left: 80px;
+   color: #e50914;
+   font-weight: 700;
+   font-size: 1.1rem;
+}
+
 ::placeholder {
     color: #15023a;
     font-weight: 400;
