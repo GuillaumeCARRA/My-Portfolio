@@ -4,11 +4,11 @@ import './resume.css';
 
 function Resume({educations, experiences}) {
     return (
-        <div className="resume" id="resume">
-           <h2 className="resume__title">
+        <div className="resume" >
+           <h2 className="resume__title" id="resume">
                 Formations et Expériences
            </h2>
-           <div className="resume__container">
+           <div className="resume__container" >
                 <div className="resume__subtitle">
                     <h3 className="resume__presentation">
                         <Icon 
