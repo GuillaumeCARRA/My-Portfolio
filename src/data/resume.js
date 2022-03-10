@@ -35,7 +35,7 @@ export default {
        {
             "id": 1,
             "title": "DEVELOPPEUR WEB ET WEB MOBILE FULLSTACK JS",
-            "name": "Ecole O'Clock (formation en téléprésentiel)",
+            "name": "Ecole O'Clock - Formation en téléprésentiel",
             "date": "Août 2020 - Février 2021"
        },
        {
