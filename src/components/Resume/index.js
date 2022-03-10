@@ -65,33 +65,6 @@ function Resume({educations, experiences}) {
                                  </div>
                              </li>
                         ))}
-                       
-                            {/* <li>
-                                <div className="resume__education">
-                                    <h4 className="resume__diploma">
-                                        test
-                                    </h4>
-                                    <h5 className="resume__school">
-                                        test
-                                    </h5>
-                                    <h6 className="resume__date">
-                                        test
-                                    </h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="resume__education">
-                                    <h4 className="resume__diploma">
-                                        test
-                                    </h4>
-                                    <h5 className="resume__school">
-                                        test
-                                    </h5>
-                                    <h6 className="resume__date">
-                                        test
-                                    </h6>
-                                </div>
-                            </li> */}
                         </ul>
                     </div>
                 </div>
