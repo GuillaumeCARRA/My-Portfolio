@@ -48,13 +48,13 @@ export default {
             "id": 3,
             "title": "BTS Management des Unités Commerciales",
             "name": "Lycée Edouard Herriot - Voiron (38) FRANCE",
-            "date": "2012 - 2014"
+            "date": "Septembre 2012 - Juin 2014"
        },
        {
             "id": 4,
             "title": "BAC Professionnel de Commerce",
             "name": "Lycée Edouard Herriot - Voiron (38) FRANCE",
-            "date": "2009 - 2012"
+            "date": "Septembre 2009 - Juin 2012"
        }
     ]
 }
