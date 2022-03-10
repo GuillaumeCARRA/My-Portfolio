@@ -7,6 +7,7 @@ import Resume from './components/Resume';
 import Projects from './components/Projects'
 import Contact from './components/Contact';
 
+import resumeData from '../src/data/resume'; 
 
 import './App.css';
 
@@ -16,7 +17,10 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Resume />
+      <Resume 
+        educations={resumeData.education}
+        experiences={resumeData.experiences}
+      />
       <Projects />
       <Contact />
     </div>

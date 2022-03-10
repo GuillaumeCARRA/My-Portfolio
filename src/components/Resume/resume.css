@@ -1,0 +1,85 @@
+.resume {
+    height: 100vh;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    color:  #15023a;
+}
+
+.resume__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.resume__container {
+    display: flex;
+    justify-content: center;
+}
+
+.resume__subtitle {
+    margin: 60px 200px;
+}
+
+.resume__presentation {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.resume__sections {
+    display: flex;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: -70px;
+    
+}
+
+.resume__items {
+    display: flex;
+    margin-left: 100px;
+    line-height: 50px;
+}
+
+.resume__items::before {
+   top: 35px;
+   left: 20px; 
+   width: 1px;
+   height: 90%;
+   content:"";
+   position: relative;
+   background-color: #15023a;
+}
+
+.resume__education {
+   margin-left: 3px;
+}
+
+.resume__diploma {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.resume__school {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.resume__date {
+    margin-top: -15px;
+    font-size: .9rem;
+    font-weight: 200;
+}
+
+.resume__education::before {
+    top: 18px; 
+    right: 33px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    content: "";
+    position: relative;
+    border-radius: 50%;
+    background-color: #e50914;
+ }
