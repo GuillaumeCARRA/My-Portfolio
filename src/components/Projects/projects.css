@@ -24,8 +24,7 @@
 .portfolio__item{
     min-height: 40rem;
     min-width: 30rem;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 .portfolio__item img {
@@ -38,5 +37,42 @@
 
 .inner-carrousel {
     display: flex;
- 
+}
+
+
+.portfolio__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(20px);
+    transition: .3s;
+}
+
+.portfolio__item:hover .portfolio__link {
+    bottom: 100%;
+}
+
+.portfolio__work  {
+    color: #e50914;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.portfolio__item a {
+    border-radius: 5px;
+    background-color: #e50914;
+    color:white;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-weight: 500;
 }

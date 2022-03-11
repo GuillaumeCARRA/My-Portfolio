@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 
 import resumeData from '../src/data/resume'; 
 
+
 import './App.css';
 
 function App() {
