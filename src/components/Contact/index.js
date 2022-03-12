@@ -9,10 +9,6 @@ function Contact() {
     const formRef = useRef();
     const [emailSend, setEmailSend] = useState(false);
 
-    // (function(){
-    //     emailjs.init("hZX_jO5BcRahSwFSh");
-    //   })();
-
     const handleSendEmail = (e) => {
         e.preventDefault();
 
