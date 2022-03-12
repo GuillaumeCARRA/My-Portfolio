@@ -48,7 +48,7 @@ function Projects() {
                         />
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">portfolio</h2>
-                            <a href="https://google.com" 
+                            <a href="https://github.com/GuillaumeCARRA/My-Portfolio" 
                                 target="_blank" 
                                 rel="noreferrer" 
                             >
@@ -64,7 +64,7 @@ function Projects() {
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">netflix clone</h2>
                             <a 
-                                href="https://google.com"
+                                href="https://github.com/GuillaumeCARRA/Netflix-clone"
                                 target="_blank" 
                                 rel="noreferrer" 
                             >
@@ -88,7 +88,7 @@ function Projects() {
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">api github</h2>
                             <a 
-                                href="https://google.com"
+                                href="https://github.com/GuillaumeCARRA/api_github"
                                 target="_blank" 
                                 rel="noreferrer"
                             >
@@ -112,7 +112,7 @@ function Projects() {
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">todo list</h2>
                             <a 
-                                href="https://google.com"
+                                href="https://github.com/GuillaumeCARRA/Todos_App"
                                 target="_blank" 
                                 rel="noreferrer"
                             >
