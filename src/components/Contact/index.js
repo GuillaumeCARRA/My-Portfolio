@@ -24,7 +24,7 @@ function Contact() {
 
         emailjs.sendForm(
             "service_yehz6up",
-            REACT_APP_TEMPLATE_ID,
+            "template_xkuv7xe",
             formRef.current,
             "hZX_jO5BcRahSwFSh"
         )
