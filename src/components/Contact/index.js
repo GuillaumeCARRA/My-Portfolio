@@ -6,18 +6,12 @@ import './contact.css';
 
 function Contact() {
 
-    const {
-        REACT_APP_SERVICE_ID,
-        REACT_APP_TEMPLATE_ID,
-        REACT_APP_USER_ID
-    } = process.env
-
     const formRef = useRef();
     const [emailSend, setEmailSend] = useState(false);
 
-    (function(){
-        emailjs.init("hZX_jO5BcRahSwFSh");
-      })();
+    // (function(){
+    //     emailjs.init("hZX_jO5BcRahSwFSh");
+    //   })();
 
     const handleSendEmail = (e) => {
         e.preventDefault();
