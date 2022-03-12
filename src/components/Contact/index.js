@@ -9,6 +9,8 @@ function Contact() {
     const formRef = useRef();
     const [emailSend, setEmailSend] = useState(false);
 
+
+
     const handleSendEmail = (e) => {
         e.preventDefault();
 
@@ -21,6 +23,7 @@ function Contact() {
         .then(
             (response) => {
                 setEmailSend(true);
+                formRef.current.reset();
             }
         ).catch(
             (error) => {
@@ -70,6 +73,7 @@ function Contact() {
                         />
                         <button 
                             className="send__button"
+                           
                         >
                             Envoyer
                             {
