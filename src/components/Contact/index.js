@@ -15,6 +15,10 @@ function Contact() {
     const formRef = useRef();
     const [emailSend, setEmailSend] = useState(false);
 
+    (function(){
+        emailjs.init(REACT_APP_SERVICE_ID);
+      })();
+
     const handleSendEmail = (e) => {
         e.preventDefault();
 
