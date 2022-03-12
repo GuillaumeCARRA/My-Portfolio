@@ -23,7 +23,7 @@ function Contact() {
         e.preventDefault();
 
         emailjs.sendForm(
-            REACT_APP_SERVICE_ID,
+            "service_yehz6up",
             REACT_APP_TEMPLATE_ID,
             formRef.current,
             "hZX_jO5BcRahSwFSh"
