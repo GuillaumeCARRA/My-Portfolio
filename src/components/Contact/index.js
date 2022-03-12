@@ -16,7 +16,7 @@ function Contact() {
     const [emailSend, setEmailSend] = useState(false);
 
     (function(){
-        emailjs.init(REACT_APP_SERVICE_ID);
+        emailjs.init("hZX_jO5BcRahSwFSh");
       })();
 
     const handleSendEmail = (e) => {
@@ -26,7 +26,7 @@ function Contact() {
             REACT_APP_SERVICE_ID,
             REACT_APP_TEMPLATE_ID,
             formRef.current,
-            REACT_APP_USER_ID
+            "hZX_jO5BcRahSwFSh"
         )
         .then(
             (response) => {
