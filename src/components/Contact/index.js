@@ -85,7 +85,7 @@ function Contact() {
                             }
                            
                         </button>
-                        {emailSend ? <p className="msg__verification">Merci pour votre message, je vous répondrai le plus vite possible</p> : ''}
+                        {/* {emailSend ? <p className="msg__verification">Merci pour votre message, je vous répondrai le plus vite possible</p> : ''} */}
                     </form>
                 </div>
         </div>
