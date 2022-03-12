@@ -95,7 +95,7 @@ function Projects() {
                                 Code
                             </a>
                             <a 
-                                href="https://google.com"
+                                href="https://apigithub-gc.netlify.app/"
                                 target="_blank" 
                                 rel="noreferrer"
                             >
@@ -119,7 +119,7 @@ function Projects() {
                                 Code
                             </a>
                             <a 
-                                href="https://google.com"
+                                href="https://todoappgc.netlify.app/"
                                 target="_blank" 
                                 rel="noreferrer"
                             >
@@ -136,14 +136,14 @@ function Projects() {
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">converter</h2>
                             <a 
-                                href="https://google.com"
+                                href="https://github.com/GuillaumeCARRA/Converter"
                                 target="_blank" 
                                 rel="noreferrer"
                             >
                                     Code
                             </a>
                             <a 
-                                href="https://google.com"
+                                href="https://converterapp-gc.netlify.app/"
                                 target="_blank" 
                                 rel="noreferrer"
                             >

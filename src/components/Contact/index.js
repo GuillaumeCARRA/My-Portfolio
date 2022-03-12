@@ -6,10 +6,11 @@ import './contact.css';
 
 function Contact() {
 
-    const REACT_APP_SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
-    const REACT_APP_TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
-    const REACT_APP_USER_ID = process.env.REACT_APP_USER_ID;
-
+    const {
+        REACT_APP_SERVICE_ID,
+        REACT_APP_TEMPLATE_ID,
+        REACT_APP_USER_ID
+    } = process.env
 
     const formRef = useRef();
     const [emailSend, setEmailSend] = useState(false);
