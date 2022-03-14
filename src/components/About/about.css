@@ -67,3 +67,10 @@
     margin-top: 30px;
     border-radius: 30%;
 }
+
+.about__description span {
+    color: #e50914;
+    font-weight: 700;
+}
+
+/* MEDIA QUERIES */

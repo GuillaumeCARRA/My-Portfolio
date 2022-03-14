@@ -65,12 +65,6 @@ a.navbar__logo {
 a.navbar__link {
     color:  #15023a;
 }
-
-/* .navbar__link:hover {
-    font-size: 2rem;
-    transition: all 0.8s ease;
-    text-decoration: underline #15023a;
-} */
 /*MENU END*/
 
 
@@ -110,3 +104,11 @@ li:nth-child(5):hover ~ .underline__animation {
 }
 /* UNDERLINE NAVBAR MENU END */
 
+
+/* MEDIA QUERIES START */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
