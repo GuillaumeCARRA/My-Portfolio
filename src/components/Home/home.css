@@ -105,12 +105,11 @@ a {
     .home{
         position: relative;
         overflow: hidden;
-       
     }
     .home__content{
         margin-top: -25%;
         margin-left: 20%;
-        /* left: 5%; */
+        left: 5%;
     }
     .home__title h1 {
         font-size: 50px;
@@ -134,7 +133,7 @@ a {
         margin-left: 5%;
     }
     .contact__button {
-        padding: 5% 5%;
+        padding: 2% 3%;
         
     }
    
