@@ -124,6 +124,7 @@
     .resume__date {
         font-size: .4rem;
         margin-top: -25px;
-        word-break: break-all;
+        
+        margin-right: -5%;
     }
  }
