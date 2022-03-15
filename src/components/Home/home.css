@@ -102,11 +102,15 @@ a {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
+    .home{
+        position: relative;
+        overflow: hidden;
+       
+    }
     .home__content{
         margin-top: -25%;
-        left: 10%;
-        margin-left: 40%;
-        position: relative;
+        margin-left: 30%;
+        left: 5%;
     }
     .home__title h1 {
         font-size: 50px;
