@@ -101,7 +101,7 @@
         height: 100vh;
     }
     .resume__subtitle {
-        margin: 10% -100% 20% 580%;
+        margin: 10% -100% 20% 550%;
     }
     .resume__presentation {
         font-size: 1.5rem;
@@ -124,5 +124,6 @@
     .resume__date {
         font-size: .4rem;
         margin-top: -25px;
+        word-break: break-all;
     }
  }
