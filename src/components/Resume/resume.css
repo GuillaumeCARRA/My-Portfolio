@@ -29,7 +29,6 @@
 
 .resume__sections {
     display: flex;
-
     position: absolute;
     margin-top: 90px;
     margin-left: -70px;
@@ -110,7 +109,7 @@
         position: absolute;
     }
     .resume__sections {
-        margin-left: 50%;
+        margin-left: 80%;
         margin-top: 8%;
     }
     .resume__diploma {
