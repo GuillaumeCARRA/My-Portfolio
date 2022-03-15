@@ -101,7 +101,7 @@ a {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-height: 900px) {
     .home{
         position: relative;
         overflow: hidden;
