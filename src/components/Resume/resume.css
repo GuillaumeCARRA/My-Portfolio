@@ -97,7 +97,7 @@
     .resume__container {
         display: flex;
         justify-content: center;
-        width: 10%;
+        width: 20%;
         height: 100vh;
     }
     .resume__subtitle {
@@ -109,7 +109,7 @@
         position: absolute;
     }
     .resume__sections {
-        margin-left: 60%;
+        margin-left: 80%;
         margin-top: 8%;
     }
     .resume__items {
