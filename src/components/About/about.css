@@ -59,6 +59,9 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) { 
+    .about{
+        margin-top: -10%;
+    }
     .about__title {
         padding-top: 100px;
         text-align: center;
@@ -68,7 +71,7 @@
     }
 
     .img__item {
-        top: 120%;
+        top: 110%;
         left: 35%;
         position: absolute;
         width: 200px;
