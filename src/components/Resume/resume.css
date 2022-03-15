@@ -96,12 +96,14 @@
         padding-top: 30px;
     }
     .resume__container {
+        display: flex;
+        justify-content: center;
         width: 10%;
         height: 100vh;
     }
-    /* .resume__subtitle {
+    .resume__subtitle {
         margin: 10% -100% 20% 640%;
-    } */
+    }
     .resume__presentation {
         font-size: 1.5rem;
         font-weight: 500;
