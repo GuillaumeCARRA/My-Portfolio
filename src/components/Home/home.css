@@ -138,3 +138,9 @@ a {
     }
    
 }
+
+@media screen and (max-width: 481px) and (max-height: 920px) {
+    .home__content{
+        left: 1%;
+    }
+}
