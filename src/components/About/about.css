@@ -103,7 +103,7 @@
     }
     .img__item {
         top: 118%;
-        left: 36%;
+        left: 38%;
         width:280px;
         height: 280px;
     }
@@ -112,7 +112,7 @@
         object-fit: cover;
     }
     .about__container {
-        margin: 35% 10% auto 20%;
+        margin: 30% 10% auto 20%;
         padding: 10px;
         width: 60%;
     }
