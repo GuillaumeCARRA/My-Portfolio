@@ -144,3 +144,18 @@ a {
         left: 1%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .home__content {
+        left: 5%
+    }
+    .home__title h2 {
+        font-size: 30px;
+    }
+    .home__title h3 {
+        font-size: 30px;
+    }
+    .home__title span {
+        font-size: 28px;
+    }
+}

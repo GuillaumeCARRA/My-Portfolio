@@ -96,3 +96,24 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .about__title {
+        padding-top: 80px;
+        text-align: center;
+    }
+    .img__item {
+        top: 118%;
+        left: 36%;
+        width:280px;
+        height: 280px;
+    }
+    .img__item img {
+        width: 60%;
+        object-fit: cover;
+    }
+    .about__container {
+        margin: 35% 10% auto 20%;
+        padding: 10px;
+        width: 60%;
+    }
+}

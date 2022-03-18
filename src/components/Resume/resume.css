@@ -136,3 +136,26 @@
         margin-left: 55%;
     }
  }
+
+ @media screen and (max-width: 1024px) {
+    .resume__presentation {
+        font-size: 2rem;
+        position: absolute;
+    }
+    .resume__title {
+        padding-top: 250px;
+    }
+    .resume__subtitle {
+        margin: 2% auto auto 18%;
+    }
+    .resume__sections {
+        margin-left: -3%;
+        margin-top: 8%;
+    }
+    .resume__items {
+        margin-left: 100px;
+    }
+    .resume__diploma {
+        font-size: .9rem;
+    }
+ }

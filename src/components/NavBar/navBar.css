@@ -112,3 +112,52 @@ li:nth-child(5):hover ~ .underline__animation {
         display: none;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .navbar{
+        width: 105%;
+        height: 70px;
+        position: fixed;
+        background-color: white;
+    }
+    .navbar__logo {
+        margin: 0 4px 12px 1px;
+        font-size: 2rem;
+    }
+    .navbar__gitlogo {
+        margin: 0 0 5px 20px;
+    }
+    
+    .navbar__linkedinlogo {
+        margin: 0 0 5px 20px;
+    }
+    .navbar__menu {
+        margin-left: 5px;
+    }
+
+    .navbar__link {
+        font-size: 1.2rem;
+    }
+    .underline__animation {
+        right: 550px;
+    }
+    li:nth-child(2):hover ~ .underline__animation {
+        transform: translate(90px);
+        width: 90px;
+    }
+    
+    li:nth-child(3):hover ~ .underline__animation {
+        transform: translate(200px);
+        width: 140px;
+    }
+    
+    li:nth-child(4):hover ~ .underline__animation {
+        transform: translate(360px);
+        width: 90px;
+    }
+    
+    li:nth-child(5):hover ~ .underline__animation {
+        transform: translate(470px);
+        width: 85px;
+    }
+}
