@@ -101,6 +101,21 @@ a {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1366px) {
+    .home__content {
+        left: 5%
+    }
+    .home__title h2 {
+        font-size: 30px;
+    }
+    .home__title h3 {
+        font-size: 30px;
+    }
+    .home__title span {
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 768px) and (max-height: 1024px) {
     .home{
         position: relative;
@@ -145,17 +160,3 @@ a {
     }
 }
 
-@media screen and (max-width: 1366px) {
-    .home__content {
-        left: 5%
-    }
-    .home__title h2 {
-        font-size: 30px;
-    }
-    .home__title h3 {
-        font-size: 30px;
-    }
-    .home__title span {
-        font-size: 28px;
-    }
-}
