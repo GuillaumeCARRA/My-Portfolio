@@ -98,7 +98,7 @@ textarea {
 
 @media screen and (max-width: 481px) and (max-height: 920px) {
     .contact__input {
-        width: 110%;
+        width: 90%;
     }
     .send__button {
         padding: 10px 20px;
