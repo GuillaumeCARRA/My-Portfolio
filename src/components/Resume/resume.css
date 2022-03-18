@@ -132,10 +132,10 @@
      .resume__presentation {
         font-size: 1rem;
     }
+    .resume__container {
+        width: 5%;
+    }
      .resume__sections {
         margin-left: 55%;
-    }
-    .resume__date {
-      font-size: .4rem;
     }
  }
