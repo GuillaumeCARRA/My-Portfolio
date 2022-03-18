@@ -137,7 +137,7 @@
     }
  }
 
- @media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1200px) {
     .resume__presentation {
         font-size: 2rem;
         position: absolute;
@@ -149,11 +149,11 @@
         margin: 2% auto auto 18%;
     }
     .resume__sections {
-        margin-left: -3%;
+        margin-left: -5%;
         margin-top: 8%;
     }
     .resume__items {
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .resume__diploma {
         font-size: .9rem;

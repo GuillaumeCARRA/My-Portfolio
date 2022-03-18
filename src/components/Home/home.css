@@ -145,7 +145,7 @@ a {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .home__content {
         left: 5%
     }

@@ -96,7 +96,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .about__title {
         padding-top: 80px;
         text-align: center;
