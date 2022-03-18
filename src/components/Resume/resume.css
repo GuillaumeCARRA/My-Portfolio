@@ -135,4 +135,7 @@
      .resume__sections {
         margin-left: 48%;
     }
+    .resume__date {
+        font-size: .5rem;
+    }
  }
