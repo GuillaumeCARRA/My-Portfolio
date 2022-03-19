@@ -122,7 +122,8 @@
         
     }
     .img__item {
-        margin-top: -35%;
+        top: 115%;
+        margin-top: -5%;
         left: 30%;
         width: 150px;
         height: 150px;
@@ -133,5 +134,6 @@
         object-fit: cover;
     }
 }
+
 
 
