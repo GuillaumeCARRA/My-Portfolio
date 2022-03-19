@@ -154,10 +154,10 @@ a {
    
 }
 
-@media screen and (min-width: 320px) and (max-width: 640px)  {
+@media screen and (min-width: 320px) and (max-width: 660px)  {
     .home__content{
         margin-top: -20%;
-        margin-left: 20%;
+        margin-left: 10%;
         left: 5%;
     }
     .home__title h1 {

@@ -146,7 +146,7 @@
     }
  }
 
- @media screen and (min-width: 320px) and (max-width: 640px) {
+ @media screen and (min-width: 320px) and (max-width: 660px) {
     .resume {
         margin-top: 150%;
         margin-bottom: 80%;
