@@ -122,11 +122,11 @@
         
     }
     .img__item {
-        margin-top: -715%;
+        margin-top: -35%;
         left: 30%;
         width: 150px;
         height: 150px;
-        position: relative;
+        position: absolute;
     }
     .img__item img {
         width: 60%;
