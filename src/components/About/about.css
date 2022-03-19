@@ -65,7 +65,7 @@
         text-align: center;
     }
     .img__item {
-        top: 118%;
+        top: 115%;
         left: 38%;
         width:280px;
         height: 280px;
@@ -127,7 +127,6 @@
         left: 30%;
         width: 150px;
         height: 150px;
-        position: absolute;
     }
     .img__item img {
         width: 60%;
