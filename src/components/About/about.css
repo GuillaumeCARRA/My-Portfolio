@@ -115,18 +115,21 @@
         text-align: center;
         font-size: 2.2rem;
     }
-    .img__item {
-        top: 112%;
-        left: 35%;
-        width: 150px;
-        height: 150px;
-        
-    }
     .about__container {
         margin: 55% 10% auto 1%;
         padding: 10px;
         width: 100%;
         
+    }
+    .img__item {
+        top: 112%;
+        left: 35%;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .img__item img {
         width: 60%;
