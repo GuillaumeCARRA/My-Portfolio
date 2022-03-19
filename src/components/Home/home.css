@@ -101,7 +101,7 @@ a {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
     .home__content {
         left: 5%
     }
@@ -116,13 +116,13 @@ a {
     }
 }
 
-@media screen and (max-width: 768px) and (max-height: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .home{
         position: relative;
         overflow: hidden;
     }
     .home__content{
-        margin-top: -25%;
+        margin-top: -20%;
         margin-left: 20%;
         left: 5%;
     }

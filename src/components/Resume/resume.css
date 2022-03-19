@@ -86,7 +86,7 @@
  }
 
  /* MEDIA QUERIES */
- @media screen and (max-width: 1366px) {
+ @media screen  and (min-width: 1024px) and (max-width: 1600px) {
     .resume__presentation {
         font-size: 2rem;
         position: absolute;
@@ -109,34 +109,33 @@
     }
  }
 
- @media screen and (max-width: 768px) and (max-height: 1024px) { 
+ @media screen and (min-width: 768px) and (max-width: 1023px) { 
      .resume {
         margin-top: 50%;
         margin-bottom: 40%;
+      
      }
     .resume__title {
         padding-top: 30px;
-    }
-    .resume__container {
-        width: 10%;
-        height: 100vh;
+       
     }
     .resume__subtitle {
-        margin: 10% -100% 20% 550%;
+        margin: 2% auto auto 18%;
     }
     .resume__presentation {
         font-size: 1.5rem;
         position: absolute;
     }
     .resume__sections {
-        margin-left: 70%;
+        margin-left: -5%;
         margin-top: 8%;
+        overflow: hidden;
     }
     .resume__items {
-        margin-left: 150px;
+        margin-left: 80px;
     }
     .resume__diploma {
-        font-size: .8rem;
+        font-size: .7rem;
     }
     .resume__school {
         font-size: .7rem;

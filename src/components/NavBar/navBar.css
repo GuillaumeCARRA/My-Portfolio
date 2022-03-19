@@ -106,7 +106,7 @@ li:nth-child(5):hover ~ .underline__animation {
 
 
 /* MEDIA QUERIES START */
-@media screen and (min-device-width : 1025px)  and (max-width: 1366px) {
+@media screen and (min-width : 1024px)  and (max-width: 1600px) {
     .navbar{
         width: 105%;
         height: 70px;
@@ -125,7 +125,7 @@ li:nth-child(5):hover ~ .underline__animation {
         margin: 0 0 5px 20px;
     }
     .navbar__menu {
-        margin-left: 5px;
+        margin-left: 95px;
     }
 
     .navbar__link {
@@ -155,7 +155,7 @@ li:nth-child(5):hover ~ .underline__animation {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 1023px) {
     .navbar {
         display: none;
     }

@@ -83,7 +83,16 @@ textarea {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) and (max-height: 1024px) {
+@media screen and (min-width: 1024px)  and (max-width: 1600px) {
+    .contact__form {
+        width: 90%;
+    }
+    .send__button {
+        margin-left: 15%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .contact {
         margin-top: -10%;
     }
