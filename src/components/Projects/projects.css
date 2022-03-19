@@ -82,7 +82,7 @@
 /* MEDIA QUERIES */
 @media screen and (min-width: 1024px)  and (max-width: 1600px) {
     .portfolio {
-        margin-top: 300px;
+        margin-top: 50%;
     }
 }
 
@@ -95,5 +95,21 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 660px) {
-
+    .portfolio__title {
+        font-size: 2.2rem;
+    }
+    .portfolio__item {
+        min-height: 10rem;
+        min-width: 10rem;
+        padding: 15px;
+    }
+    .portfolio__work  {
+        padding-top: 35%;
+        font-size: 1.2rem;
+    }
+    .portfolio__item a {
+        margin-top: 40px;
+        margin-left: 5px;
+        padding: 10px 15px;
+    }
 }

@@ -106,10 +106,19 @@ textarea {
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px)  {
+    .contact {
+        margin-top: -10%;
+    }
+    .contact__title { 
+        font-size: 2.2rem;
+    }
     .contact__form {
-        width: 80%;
+        width: 100%;
+        
     }
     .send__button {
+        margin-bottom: 10%;
+        margin-right: 10%;
         padding: 10px 20px;
     }
 }

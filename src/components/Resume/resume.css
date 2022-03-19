@@ -87,6 +87,9 @@
 
  /* MEDIA QUERIES */
  @media screen  and (min-width: 1024px) and (max-width: 1600px) {
+    .resume {
+         margin-top: 50%;
+    }
     .resume__presentation {
         font-size: 2rem;
         position: absolute;
