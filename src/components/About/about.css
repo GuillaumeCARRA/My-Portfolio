@@ -51,6 +51,7 @@
 .img__about {
     margin-top: 30px;
     border-radius: 30%;
+    
 }
 
 .about__description span {
@@ -122,7 +123,8 @@
         
     }
     .img__item {
-        top: 115%;
+        top: -1000px;
+        position: relative;
         margin-top: -5%;
         left: 30%;
         width: 150px;
