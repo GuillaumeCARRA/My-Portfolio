@@ -91,11 +91,11 @@
 
 @media only screen and (min-width: 1024px)  and (max-width: 1366px) {
     .about__title {
-        padding-top: 80px;
+        padding-top: 75px;
         text-align: center;
     }
     .img__item {
-        top: 117%;
+        top: 116%;
         left: 39%;
         width: 240px;
         height: 240px;
