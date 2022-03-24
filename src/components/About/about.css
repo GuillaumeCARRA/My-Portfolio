@@ -62,7 +62,7 @@
 /* MEDIA QUERIES */
 @media screen and (min-width : 1367px)  and (max-width: 1605px) {
     .about__title {
-        padding-top: 120px;
+        padding-top: 115px;
         text-align: center;
     }
     .about__container {
@@ -78,10 +78,11 @@
         word-spacing: -5px;
     }
     .img__item {
-        top: 123%;
+        margin-top: 10px;
+        top: 120%;
         left: 39%;
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        height: 300px;
     }
     .img__item img {
         width: 70%;
