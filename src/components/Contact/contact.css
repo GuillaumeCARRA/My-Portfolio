@@ -45,8 +45,8 @@
 }
 
 .send__button {
-    display: flex;
-    position: relative;
+    /* display: flex; */
+    /* position: relative; */
     margin-top: 20px;
     margin-right: 550px;
     padding: 12px 20px;
@@ -83,13 +83,13 @@ textarea {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 1024px)  and (max-width: 1600px) {
-    .contact__form {
-        width: 90%;
+@media screen and (min-width: 1024px)  and (max-width: 1366px) {
+    .contact__input {
+        width: 95%;
     }
     .send__button {
-        margin-left: 15%;
-        margin-top: 1%;
+        margin-right: 70.5%;
+        margin-top: .5%;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {

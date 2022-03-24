@@ -60,14 +60,14 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 1024px)  and (max-width: 1600px) {
+@media only screen and (min-width: 1024px)  and (max-width: 1366px) {
     .about__title {
         padding-top: 80px;
         text-align: center;
     }
     .img__item {
-        top: 116%;
-        left: 38%;
+        top: 118%;
+        left: 39%;
         width:245px;
         height: 245px;
     }
@@ -76,7 +76,7 @@
         object-fit: cover;
     }
     .about__container {
-        margin: 25% 10% auto 20%;
+        margin: 23% 10% auto 20%;
         padding: 10px;
         width: 60%;
     }

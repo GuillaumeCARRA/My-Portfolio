@@ -101,7 +101,7 @@ a {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 1024px) and (max-width: 1600px) {
+@media screen and (min-width: 1024px) and (max-width: 1605px) {
     .home__content {
         left: 5%
     }

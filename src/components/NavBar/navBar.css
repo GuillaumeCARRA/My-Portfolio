@@ -106,7 +106,7 @@ li:nth-child(5):hover ~ .underline__animation {
 
 
 /* MEDIA QUERIES START */
-@media screen and (min-width : 1024px)  and (max-width: 1600px) {
+@media screen and (min-width : 1024px)  and (max-width: 1366px) {
     .navbar{
         width: 105%;
         height: 70px;
