@@ -60,6 +60,35 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width : 1367px)  and (max-width: 1605px) {
+    .about__title {
+        padding-top: 120px;
+        text-align: center;
+    }
+    .about__container {
+        margin: 23% 10% auto 20%;
+        padding: 10px;
+        width: 60%;
+    }
+    .about__description {
+        font-size: 22px;
+        word-spacing: 1px;
+    }
+    .text__uppercase   {
+        word-spacing: -5px;
+    }
+    .img__item {
+        top: 123%;
+        left: 39%;
+        width: 320px;
+        height: 320px;
+    }
+    .img__item img {
+        width: 70%;
+        object-fit: cover;
+    }
+}
+
 @media only screen and (min-width: 1024px)  and (max-width: 1366px) {
     .about__title {
         padding-top: 80px;

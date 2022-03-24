@@ -83,6 +83,16 @@ textarea {
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width : 1367px)  and (max-width: 1605px){
+    .contact__input {
+        width: 95%;
+    }
+    .send__button {
+        margin-right: 79%;
+        margin-top: .5%;
+    }
+}
+
 @media screen and (min-width: 1024px)  and (max-width: 1366px) {
     .contact__input {
         width: 95%;

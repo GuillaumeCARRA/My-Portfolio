@@ -80,6 +80,17 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width : 1367px)  and (max-width: 1605px) {
+    .portfolio {
+        margin-top: 40%;
+        margin-bottom: 20%;
+    }
+    .portfolio__item {
+        min-height: 28rem;
+        min-width: 28rem;
+        padding: 15px;
+    }
+}
 @media screen and (min-width: 1024px)  and (max-width: 1366px) {
     .portfolio {
         margin-top: 50%;

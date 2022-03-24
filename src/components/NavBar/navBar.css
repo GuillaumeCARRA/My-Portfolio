@@ -106,6 +106,42 @@ li:nth-child(5):hover ~ .underline__animation {
 
 
 /* MEDIA QUERIES START */
+@media screen and (min-width : 1367px)  and (max-width: 1605px) {
+    .navbar {
+        width: 105%;
+        height: 70px;
+        position: fixed;
+    }
+    .navbar__link {
+        font-size: 1.8rem;
+    }
+    .navbar__menu {
+        margin-left: 160px;
+    }
+    .underline__animation {
+        right: 735px;
+    }
+    li:nth-child(2):hover ~ .underline__animation {
+        transform: translate(110px);
+        width: 120px;
+    }
+    
+    li:nth-child(3):hover ~ .underline__animation {
+        transform: translate(260px);
+        width: 188px;
+    }
+    
+    li:nth-child(4):hover ~ .underline__animation {
+        transform: translate(475px);
+        width: 120px;
+    }
+    
+    li:nth-child(5):hover ~ .underline__animation {
+        transform: translate(625px);
+        width: 110px;
+    }
+}
+
 @media screen and (min-width : 1024px)  and (max-width: 1366px) {
     .navbar{
         width: 105%;
