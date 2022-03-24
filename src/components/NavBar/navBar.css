@@ -113,31 +113,31 @@ li:nth-child(5):hover ~ .underline__animation {
         position: fixed;
     }
     .navbar__link {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .navbar__menu {
         margin-left: 160px;
     }
     .underline__animation {
-        right: 735px;
+        right: 705px;
     }
     li:nth-child(2):hover ~ .underline__animation {
-        transform: translate(110px);
-        width: 120px;
+        transform: translate(108px);
+        width: 115px;
     }
     
     li:nth-child(3):hover ~ .underline__animation {
-        transform: translate(260px);
-        width: 188px;
+        transform: translate(250px);
+        width: 182px;
     }
     
     li:nth-child(4):hover ~ .underline__animation {
-        transform: translate(475px);
-        width: 120px;
+        transform: translate(460px);
+        width: 110px;
     }
     
     li:nth-child(5):hover ~ .underline__animation {
-        transform: translate(625px);
+        transform: translate(600px);
         width: 110px;
     }
 }
