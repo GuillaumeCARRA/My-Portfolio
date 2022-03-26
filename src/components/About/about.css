@@ -96,6 +96,7 @@
         text-align: center;
     }
     .img__item {
+        margin-top: 12px;
         top: 116%;
         left: 39%;
         width: 240px;
