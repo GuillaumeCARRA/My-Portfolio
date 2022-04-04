@@ -5,7 +5,7 @@ import imagePortfolio from '../../assets/images/portfolio.png';
 import imageConverter from '../../assets/images/converter.png';
 import imageNetflixClone from '../../assets/images/netflixclone.png';
 import imageApiGithub from '../../assets/images/apigithub.png';
-import imageTodoList from '../../assets/images/todolist.png';
+import imageEcommerce from '../../assets/images/ecommerce.png';
 
 import './projects.css'
 
@@ -44,7 +44,7 @@ function Projects() {
                     <motion.div className="portfolio__item"> 
                         <img 
                             src={imagePortfolio}
-                            alt="caroussel"
+                            alt="portfolio"
                         />
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">portfolio</h2>
@@ -59,7 +59,7 @@ function Projects() {
                     <motion.div className="portfolio__item"> 
                         <img 
                             src={imageNetflixClone}
-                            alt="caroussel"
+                            alt="netflix clone"
                         />
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">netflix clone</h2>
@@ -83,7 +83,7 @@ function Projects() {
                     <motion.div className="portfolio__item"> 
                         <img 
                             src={imageApiGithub}
-                            alt="caroussel"
+                            alt="api github"
                         />
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">api github</h2>
@@ -106,20 +106,20 @@ function Projects() {
 
                     <motion.div className="portfolio__item"> 
                         <img 
-                            src={imageTodoList}
-                            alt="caroussel"
+                            src={imageEcommerce}
+                            alt="todo list"
                         />
                         <div className="portfolio__link">
-                            <h2 className="portfolio__work">todo list</h2>
+                            <h2 className="portfolio__work">Web Store</h2>
                             <a 
-                                href="https://github.com/GuillaumeCARRA/Todos_App"
+                                href="https://github.com/GuillaumeCARRA/js-ecommerce"
                                 target="_blank" 
                                 rel="noreferrer"
                             >
                                 Code
                             </a>
                             <a 
-                                href="https://todoappgc.netlify.app/"
+                                href="https://webstoresneakers.netlify.app/"
                                 target="_blank" 
                                 rel="noreferrer"
                             >
@@ -131,7 +131,7 @@ function Projects() {
                     <motion.div className="portfolio__item"> 
                         <img 
                             src={imageConverter}
-                            alt="caroussel"
+                            alt="money converter"
                         />
                         <div className="portfolio__link">
                             <h2 className="portfolio__work">converter</h2>
