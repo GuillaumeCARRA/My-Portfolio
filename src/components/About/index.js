@@ -11,7 +11,7 @@ function About() {
             <div className="about__container">
                 <div className="about__data">
                     <p className="about__description">
-                        Après avoir effectué <span>divers emplois</span> et avoir été pendant 3 ans Vendeur Sports Collectifs, j'ai eu l'envi de me <span>reconvertir dans le Développement Web</span>. 
+                        Après avoir effectué <span>divers emplois</span> et avoir été pendant 3 ans Vendeur Sports Collectifs, j'ai eu l'envie de me <span>reconvertir dans le Développement Web</span>. 
                         <br/> <br/>
                         Pour cela j'ai suivi une <span className="text__uppercase">formation développeur fullstack javascript</span>, délivrant le Titre Professionnel “Développeur Web et Web
                         Mobile”, en téléprésentiel, au sein de l'école O'clock.
