@@ -1,5 +1,5 @@
 import React from 'react';
-import bart from '../../../src/assets/images/bart-temporary.jpg';
+import me from '../../../src/assets/images/webResult.png';
 import './about.css';
 
 function About() {
@@ -22,7 +22,7 @@ function About() {
                     </p>
                 </div>
                     <div className="img__item">
-                        <img src={bart} className="img__about" alt="bart simpson picture"/>
+                        <img src={me} className="img__about" alt="bart simpson picture"/>
                     </div>
             </div>
         </div>
