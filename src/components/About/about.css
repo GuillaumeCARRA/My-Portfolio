@@ -79,7 +79,7 @@
         word-spacing: -5px;
     }
     .img__item {
-        margin-top: 2px;
+        margin-top: 8px;
         top: 123%;
         left: 39%;
         width: 300px;
@@ -163,9 +163,9 @@
     }
 
     .img__item {
-        top: -1150px;
+        top: -1000px;
         position: relative;
-        margin-top: 1px;
+        margin-top: -5%;
         left: 28%;
         width: 150px;
         height: 150px;
