@@ -7,7 +7,7 @@ import imageNetflixClone from '../../assets/images/netflixclone.png';
 import imageApiGithub from '../../assets/images/apigithub.png';
 import imageEcommerce from '../../assets/images/ecommerce.png';
 
-import './projects.css'
+import './projects.css';
 
 
 function Projects() {
@@ -131,19 +131,19 @@ function Projects() {
                     <motion.div className="portfolio__item"> 
                         <img 
                             src={imageConverter}
-                            alt="money converter"
+                            alt="football api"
                         />
                         <div className="portfolio__link">
-                            <h2 className="portfolio__work">converter</h2>
+                            <h2 className="portfolio__work">api football</h2>
                             <a 
-                                href="https://github.com/GuillaumeCARRA/Converter"
+                                href="https://github.com/GuillaumeCARRA/football_api"
                                 target="_blank" 
                                 rel="noreferrer"
                             >
                                     Code
                             </a>
                             <a 
-                                href="https://converterapp-gc.netlify.app/"
+                                href="https://api-soccer.netlify.app/"
                                 target="_blank" 
                                 rel="noreferrer"
                             >

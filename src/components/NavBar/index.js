@@ -23,7 +23,7 @@ function NavBar() {
                 </div>
                 <div className="navbar__linkedinlogo">
                     <a 
-                        href="https://www.linkedin.com/in/guillaume-carra-5280bb1ba/" 
+                        href="https://www.linkedin.com/in/guillaumecarra/" 
                         target="_blank" 
                         rel="noreferrer"
                     > 
