@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 import imagePortfolio from '../../assets/images/portfolio.png';
-import imageConverter from '../../assets/images/converter.png';
+import imageApiFootball from '../../assets/images/apifootball.png';
 import imageNetflixClone from '../../assets/images/netflixclone.png';
 import imageApiGithub from '../../assets/images/apigithub.png';
 import imageEcommerce from '../../assets/images/ecommerce.png';
@@ -130,7 +130,7 @@ function Projects() {
 
                     <motion.div className="portfolio__item"> 
                         <img 
-                            src={imageConverter}
+                            src={imageApiFootball}
                             alt="football api"
                         />
                         <div className="portfolio__link">
